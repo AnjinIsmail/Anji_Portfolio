@@ -4,7 +4,7 @@ const app = exp();
 
 const path = require('path');
 const port = process.env.PORT || 3000;
-const publicPath = path.join(__dirname, '..', 'public');
+const publicPath = path.join(__dirname, "..", 'public');
 app.use(exp.static(publicPath));
 
 
