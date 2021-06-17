@@ -1,0 +1,53 @@
+{
+  "name": "portfolio",
+  "version": "0.1.0",
+  "private": false,
+  "dependencies": {
+    "@testing-library/jest-dom": "^4.2.4",
+    "@testing-library/react": "^9.3.2",
+    "@testing-library/user-event": "^7.1.2",
+    "express": "^4.17.1",
+    "node-sass": "^4.14.1",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-grid-system": "^6.3.1",
+    "react-helmet": "^6.0.0",
+    "react-icons": "^3.10.0",
+    "react-images": "^1.1.7",
+    "react-particles-js": "^3.2.1",
+    "react-router-dom": "^5.1.2",
+    "react-router-transition": "^2.0.0",
+    "react-scripts": "3.4.1",
+    "react-slick": "^0.25.2",
+    "react-tabs": "^3.1.0",
+    "react-text-loop": "^2.3.0",
+    "react-transition-group": "^4.4.1",
+    "serve": "^12.0.0",
+    "slick-carousel": "^1.8.1",
+    "themify-icons-sass": "^1.0.1"
+  },
+  "scripts": {
+    "dev": "react-scripts start",
+    "start-client": "react-scripts start",
+    "build": "react-scripts build",
+    "test": "react-scripts test --ev=jsdom",
+    "eject": "react-scripts eject",
+    "start": "npm run build && (cd server && npm start)",
+    "heroku-postbuild": "npm run build"
+  },
+  "eslintConfig": {
+    "extends": "react-app"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}
